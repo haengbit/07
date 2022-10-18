@@ -3,19 +3,22 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) 
-{
 
-	int flag = 1;
-	int y;
+int main(int argc, char *argv[]) {
+	int i;
 	
-	while(flag != 0)
+	for (i = 0; i < 5; i++)
 	{
-		
-		y = 3;
-		flag = 0;
-	}
-	// y = 4;
-	
+		int temp = 1;
+		printf("temp = %d\n", temp);
+		temp++;	
+	} 
 	return 0;
 }
+
+// result 
+// temp = 1 
+// temp = 1 
+// temp = 1 
+// temp = 1 
+// temp = 1 
